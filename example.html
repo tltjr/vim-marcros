@@ -1,0 +1,81 @@
+<form name="settingsForm">
+  <div class="tile is-vertical is-parent">
+    <div class="tile is-child">
+      <div class="field-body">
+        <div class="field">
+          <label class="label">Starting Balance</label>
+          <div class="control">
+            <input class="input" name="startingBalance" type="number" [(ngModel)]="startingBalance">
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Start Date</label>
+          <div class="control">
+            <input class="input" name="startDateName" mdInput [(ngModel)]="startDateValue" (focus)="startDate.open()" [mdDatepicker]="startDate">
+            <md-datepicker #startDate></md-datepicker>
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">End Date</label>
+          <div class="control">
+            <input class="input" name="endDateName" mdInput [(ngModel)]="endDateValue" (focus)="endDate.open()" [mdDatepicker]="endDate">
+            <md-datepicker #endDate></md-datepicker>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tile is-child">
+      <div class="field-body">
+        <div class="field">
+          <label class="label">Pay Amount</label>
+          <div class="control">
+            <input class="input" name="payAmount" type="number" [(ngModel)]="payAmount">
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Pay Amount Two</label>
+          <div class="control">
+            <input class="input" name="payAmountTwo" type="number" [(ngModel)]="payAmountTwo">
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Some Field</label>
+          <div class="control">
+            <input class="input" name="someField" type="number" [(ngModel)]="someField">
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Another Field</label>
+          <div class="control">
+            <input class="input" name="anotherField" type="number" [(ngModel)]="anotherField">
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">So Many Fields</label>
+          <div class="control">
+            <input class="input" name="soManyField" type="number" [(ngModel)]="soManyField">
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">And More</label>
+          <div class="control">
+            <input class="input" name="andMore" type="number" [(ngModel)]="andMore">
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Blah</label>
+          <div class="control">
+            <input class="input" name="blah" type="number" [(ngModel)]="blah">
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Blah Blah</label>
+          <div class="control">
+            <input class="input" name="blahBlah" type="number" [(ngModel)]="blahBlah">
+          </div>
+        </div>
+      </div>
+    </div>
+    <button style="width: 70px;" class="button is-primary" (click)="refresh()">Refresh</button>
+  </div>
+</form>

@@ -1,0 +1,27 @@
+0. Enable KeyCastr
+1. basics
+2. record
+3. replay
+4. replay multiple
+6. demo 1 - sql header line to pocos
+7. demo 2 - copy the poco we just created into a view model object initializer 
+            and use macros to remove all the access modifiers and initialize the props
+4. Thinking about when to use macros
+   - repeated keystrokes
+   - structured code
+5. common 'tricks'
+   A. Using the '*' or '#' commands
+   B. Have something useful searched using /
+
+8. HTML demos -
+   A. Change the class of every {whatever}
+   B. Add a class to something
+9. Demo multiple files! (Show how you copied your bullet points from notes.md to order.md)
+6. combining macros (one macro uses another)
+7. macros in your vimrc
+8. Editing Macros
+9. notes on using macros in Visual Studio and vsvim
+   A. It can be super slow
+   B. autocompletions/intellisense are lost
+   C. right click and 'open with' -> gVim then record/execute macro
+

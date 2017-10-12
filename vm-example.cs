@@ -1,0 +1,2 @@
+var viewModel = new ViewModel {
+};
