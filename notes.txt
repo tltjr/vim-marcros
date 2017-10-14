@@ -9,8 +9,8 @@
 4. Thinking about when to use macros
    - repeated keystrokes
    - structured code
-5. common 'tricks'
-   A. Using the '*' or '#' commands
+5. common "tricks"
+   A. Using the "*" or "#" commands
    B. Have something useful searched using /
 
 8. HTML demos -
@@ -24,4 +24,3 @@
    A. It can be super slow
    B. autocompletions/intellisense are lost
    C. right click and 'open with' -> gVim then record/execute macro
-
